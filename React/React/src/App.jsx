@@ -4,6 +4,7 @@ import ProductCard from './w4L2/productCard';
 import Counter from './w4L3/Counter';
 import Costumer from './w4L3/Costumer';
 import TodoList from './w5Todo/TodoList';
+import TodoEffectLocalStorage from './w6l1/TodoEffectLocalStorage'
 
 //React komponentti sisältää funktion, joka palauttaa jsx
 function App() {
@@ -58,7 +59,11 @@ function App() {
       } */}
       {/* Viikon 4, 3 tehtävä     
       <Counter/> */}
-      <TodoList/>
+      {/* Todolistaan kuuluva
+      <TodoList/> */}
+          
+      <TodoEffectLocalStorage />
+
 
 
     </div>
